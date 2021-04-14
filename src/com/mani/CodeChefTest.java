@@ -13,7 +13,7 @@ public class CodeChefTest {
 	public static void main(String[] args) throws UnsupportedEncodingException {
 
 		//FormURLEncodedProperties FormURLEncodedProperties =new FormURLEncodedProperties();
-		String url ="starfleet openid profile email ^\\/package\\/batchGeneratePackages\\:POST$ ^\\/package\\/batchGeneratePackages\\/.+\\:GET$ ^\\/package\\/auth-track\\/.+\\:GET$ ^\\/package\\/.+\\/invoice\\:GET$ ^\\/package\\/.+\\/shipping-label\\:GET$";
+		String url ="{\"header\":{\"appid\":\"XM_LP\",\"operator_id\":\"XM_LP\",\"operator_name\":\"XM_LP\",\"sign\":\"5E3378DC9CDB37DEC19FC07369578EB3\",\"project\":\"XM_LP_WAYBILL\",\"id\":\"520082820650013601\",\"index\":\"520082820650013601\"},\"body\":\"{\\\"id\\\":1440,\\\"awbNo\\\":\\\"794627979298\\\",\\\"expressId\\\":102,\\\"waybillId\\\":\\\"520082820650013601\\\",\\\"status\\\":1,\\\"createTime\\\":0,\\\"cashType\\\":0,\\\"insureAmount\\\":0.0,\\\"invoiceDate\\\":\\\"\\\",\\\"goodsProperty\\\":0,\\\"regionClassification\\\":\\\"\\\",\\\"idealFc\\\":\\\"\\\",\\\"tierSplit\\\":\\\"\\\",\\\"region\\\":\\\"\\\",\\\"reverseAwb\\\":\\\"\\\"}\"}";
 		//starfleet+openid+profile+email+%5E%5C%2Fpackage%5C%2FbatchGeneratePackages%5C%3APOST%24+%5E%5C%2Fpackage%5C%2FbatchGeneratePackages%5C%2F.%2B%5C%3AGET%24+%5E%5C%2Fpackage%5C%2Fauth-track%5C%2F.%2B%5C%3AGET%24+%5E%5C%2Fpackage%5C%2F.%2B%5C%2Finvoice%5C%3AGET%24+%5E%5C%2Fpackage%5C%2F.%2B%5C%2Fshipping-label%5C%3AGET%24
 		String encodeURL=URLEncoder.encode( url, "UTF-8" ); 
 		System.out.print("Encoded url " + encodeURL);
